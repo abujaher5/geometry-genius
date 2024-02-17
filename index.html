@@ -105,17 +105,17 @@
             </figure>
             <div class="card-body text-center">
               <h2 class="card-title">Parallelogram</h2>
-              <p class="text-3xl">Area (A) = 0.5 X b X h</p>
+              <p class="text-3xl">Area (A) = b X h</p>
               <div>
                 <input
                   class="w-24 text-2xl p-2 rounded"
-                  id="triangle-base"
+                  id="parallelogram-base"
                   type="text"
                   placeholder="b"
                 />
                 <span class="mr-4 ml-2">cm</span>
                 <input
-                  id="triangle-height"
+                  id="parallelogram-height"
                   class="w-24 text-2xl p-2 rounded"
                   type="text"
                   placeholder="h"
@@ -124,13 +124,13 @@
               </div>
               <div>
                 <p class="text-2xl">
-                  Area: <span id="triangle-area"></span
+                  Area: <span id="parallelogram-area"></span
                   ><span>cm <sup>2</sup></span>
                 </p>
               </div>
               <div class="card-actions">
                 <button
-                  onclick="calculateTriangleArea()"
+                  onclick="calculateParallelogramArea()"
                   class="btn btn-primary w-full"
                 >
                   Calculate
@@ -267,6 +267,6 @@
     </main>
     <script src="script/triangle-area.js"></script>
     <script src="script/rectangle-area.js"></script>
-    <script src="script/triangle-area.js"></script>
+    <script src="script/parallelogram-area.js"></script>
   </body>
 </html>
